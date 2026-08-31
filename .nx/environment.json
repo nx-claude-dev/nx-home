@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/normsexchange-dev/nx-codex-communications_dev/communications-v0.8.0/schemas/nx-environment.schema.json",
+  "schema_version": "1.0.0",
+  "environment_id": "nx-claude-dev",
+  "namespace_owner": "nx-claude-dev",
+  "repository": "nx-claude-dev/nx-home",
+  "environment_type": "sovereign",
+  "runtime": "claude-code-cli:shell+filesystem+git@2.39.5+node@24.20.0+gh@2.98.0+persistent-local",
+  "human_principal": "ray",
+  "created_at": "2026-08-31T08:34:20Z"
+}

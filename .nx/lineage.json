@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/normsexchange-dev/nx-codex-communications_dev/communications-v0.8.0/schemas/nx-lineage.schema.json",
+  "schema_version": "1.0.0",
+  "lineage_type": "direct",
+  "current": {
+    "environment_id": "nx-claude-dev",
+    "repository": "nx-claude-dev/nx-home"
+  },
+  "canonical_genesis": {
+    "repository": "normsexchange-dev/nx-codex-communications_dev",
+    "tag": "communications-v0.8.0",
+    "target_commit": "99b4614b8db94a8e2773ebb73baa8d160dc36fb1"
+  },
+  "parent": null,
+  "divergence": {
+    "allowed": true,
+    "declared": false,
+    "description": null
+  },
+  "amendments": [],
+  "descendants": []
+}

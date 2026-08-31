@@ -1,0 +1,31 @@
+{
+  "$schema": "https://raw.githubusercontent.com/normsexchange-dev/nx-codex-communications_dev/communications-v0.8.0/schemas/nx-genesis.schema.json",
+  "schema_version": "1.0.0",
+  "genesis_type": "fresh",
+  "canonical_release": {
+    "repository": "normsexchange-dev/nx-codex-communications_dev",
+    "tag": "communications-v0.8.0",
+    "tag_object": "6f27341b417f4f4d9822d717e875b79f07556e87",
+    "target_commit": "99b4614b8db94a8e2773ebb73baa8d160dc36fb1",
+    "source_digest": "d99c38e47db32d7cf780ed1cafb66ef487b2e12830419f089e536806aa20f14c"
+  },
+  "materializer": {
+    "name": "nx-sovereign-genesis",
+    "version": "0.8.0"
+  },
+  "destination": {
+    "owner": "nx-claude-dev",
+    "repository": "nx-claude-dev/nx-home",
+    "environment_id": "nx-claude-dev",
+    "runtime": "claude-code-cli:shell+filesystem+git@2.39.5+node@24.20.0+gh@2.98.0+persistent-local"
+  },
+  "materialized_at": "2026-08-31T08:34:20Z",
+  "genesis_commit": "a3a373d229a9a624c814fc0b729c11a2037fe1e6",
+  "initial_core_digest": "5667208ddc4a6bba014e8ea4f5c65a0f1f9b10718a6103528cfb2cfe8d4bfb47",
+  "human_principal": "ray",
+  "sovereignty_transfer": {
+    "state": "transferred",
+    "recipient": "nx-claude-dev/nx-home",
+    "effective_at": "2026-08-31T08:34:20Z"
+  }
+}
